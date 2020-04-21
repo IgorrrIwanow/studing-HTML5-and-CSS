@@ -192,65 +192,57 @@ details[open] .dignity_details_summary:before {
 }
 
 .screenshots {
-	padding: 50px 50px 50px 50px;
+	width: 100%;
+	padding: 51px 50px 49px 50px;
 	box-sizing: border-box;
 }
 
-.screenshots_heading {
+.screenshots_title {
 	color: #445161;
 	font-size: 30px;
 	font-weight: 400;
+	margin: 0 0 35px 0; 
 	text-align: center;
-	margin: 0 0 35px 0;
 }
 
-.screenshots_content-wrp:after {
-	content: "";
+.screenshots_wrp{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.screenshots_figure{
+	margin: 0 0 30px 0;
+	display: flex;
+	width: 50%;
+}
+
+.screenshots_figure:nth-child(3){
+	margin: 0;
+}
+
+.screenshots_figure:nth-child(4){
+	margin: 0;
+}
+
+.screenshots_figure_img {
 	display: block;
-	width: 100%;
-	clear: both;
-}
-
-.screenshots_content_figure-1 {
-	margin: 0 0 0 0;
-	float: left;
-}
-
-.screenshots_content_figure-2 {
-	margin: 0 0 0 0;
-	float: right;
-}
-
-.screenshots_content_figure-3 {
-	margin: 30px 0 0 0;
-	float: left;
-}
-
-.screenshots_content_figure-4 {
-	margin: 30px 0 0 0;
-	float: right;
-}
-
-.figure-1_photo {
 	background-color: #445161;
-	display: block;
-	float: left;
 }
 
-.figure-1_figcaption_heading {
+.figure_figcaption_title {
+	margin: 0 0 15px 15px;
 	color: #445161;
 	font-size: 24px;
 	font-weight: 400;
-	margin: 0 0 0 213px;
 }
 
-.figure-1_figcaption_text {
+.figure_figcaption_paragraph {
 	color: #333333;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	width: 360px;
-	margin: 15px 0 0 213px;
-	line-height: 24px;
+	margin: 0 0 0 15px;
+	line-height: 22px;
 }
 
 .reviews {
@@ -338,7 +330,7 @@ details[open] .dignity_details_summary:before {
 	margin: 0 0 46px 0;
 }
 
-.buy-it-now_wrp{
+.buy-it-now_wrp {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -405,12 +397,12 @@ details[open] .dignity_details_summary:before {
 	border-radius: 10px;
 }
 
-.buy-it-now_button:hover{
+.buy-it-now_button:hover {
 	background-color: antiquewhite;
 	color: red;
 }
 
-.buy-it-now_button:active{
+.buy-it-now_button:active {
 	background-color: #ffffff;
 	color: #445161;
 }
