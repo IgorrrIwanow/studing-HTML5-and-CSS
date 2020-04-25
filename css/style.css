@@ -227,10 +227,11 @@ details[open] .dignity_details_summary:before {
 .screenshots_figure_img {
 	display: block;
 	background-color: #445161;
+	margin: 0 15px 0 0;
 }
 
 .figure_figcaption_title {
-	margin: 0 0 15px 15px;
+	margin: 0 0 15px 0;
 	color: #445161;
 	font-size: 24px;
 	font-weight: 400;
@@ -241,7 +242,7 @@ details[open] .dignity_details_summary:before {
 	font-size: 16px;
 	font-weight: 400;
 	width: 360px;
-	margin: 0 0 0 15px;
+	margin: 0;
 	line-height: 22px;
 }
 
@@ -479,6 +480,17 @@ details[open] .dignity_details_summary:before {
 	margin: 0 auto;
 }
 
+.input_buttom:hover {
+	background-color: antiquewhite;
+	color: red;
+}
+
+.input_buttom:active {
+	outline: none;
+	background-color: white;
+	color: black;
+}
+
 .footer_contacts_items {
 	display: block;
 	margin: 0 0 29px 76px;
@@ -541,6 +553,33 @@ details[open] .dignity_details_summary:before {
 	height: 42px;
 	background-color: aliceblue;
 	margin: 0 0 0 45px;
+	outline: none;
+	display: flex;
+	justify-content: space-between;
+	background-color: #445162;
+}
+
+.social-button_link {
+	display: block;
+	width: 44px;
+	height: 42px;
+	background-image: url(../img/social_buttons.png);
+}
+
+.social-button_link:nth-child(2) {
+	background-position: 191px;
+}
+
+.social-button_link:nth-child(3) {
+	background-position: 142px;
+}
+
+.social-button_link:nth-child(4) {
+	background-position: 92px;
+}
+
+.social-button_link:nth-child(5) {
+	background-position: 43px;
 }
 
 .footer_copyright_text {
