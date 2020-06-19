@@ -441,10 +441,6 @@ details[open] .dignity_details_summary:before {
 	border-radius: 8px;
 }
 
-.footer_input:focus {
-	border: 1px solid #00FFFF;
-}
-
 .footer_input[placeholder] {
 	color: #445162;
 	font-size: 16px;
